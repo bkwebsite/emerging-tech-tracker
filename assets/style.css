@@ -1,29 +1,35 @@
 body {
   margin: 0;
   padding: 0;
-  background: #121212;
+  background-color: #121212;
   color: #e0e0e0;
-}
-
-input {
-  background: #1e1e1e;
-  color: #ffffff;
-  border: 1px solid #333;
-}
-
-input::placeholder {
-  color: #aaaaaa;
+  font-family: Arial, sans-serif;
 }
 
 h1, h2 {
   color: #ffffff;
 }
 
-div {
+input {
   background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #444;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+input::placeholder {
+  color: #888888;
 }
 
 #results > div {
-  border: 1px solid #444;
   background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+div {
+  background-color: transparent;
 }
